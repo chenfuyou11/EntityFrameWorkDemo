@@ -17,7 +17,7 @@ namespace EntityFrameWorkDemo.Models
         public string Name { get; set; }
         public int BlogStatus { get; set; }
         public DateTime BdateTime { get; set; }
-
+        public string Descs { get; set; }
 
         public virtual ICollection<Posts> Posts { get; set; }
     }
